@@ -143,7 +143,7 @@ class AppTest {
     }
 
     @Test
-    void printPricesSorted2() {
+    void        printPricesSorted2() {
         String input = "1\n40\n10\n20\n10\n10\n10\n10\n10\n10\n10\n10\n10\n10\n10\n10\n10\n10\n10\n10\n10\n10\n10\n10\n10\n3\ne\n";
         provideInput(input);
         App.main(null);
